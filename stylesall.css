@@ -1,0 +1,243 @@
+
+/*Css for all pages*/
+
+body{
+    background: linear-gradient(to top,#36454Fff, rgb(117, 109, 109));
+}
+
+.navbar
+{background: #F88379ff;
+list-style-type: none;
+text-align:start;
+font-size: 30px;
+}
+
+
+.nav_logo
+{border-style: groove;
+    border-width: 10px;
+border-color: #9E598C;}
+
+
+
+.page_title
+{background: #9A4EAEff;
+text-align: center;
+font-size: 45px;
+font-weight: bold;
+}
+
+footer{
+    background: #F88379ff;
+text-align: center;
+font-weight: bold;
+}
+
+hr
+{color: white;
+}
+
+
+
+
+
+/*CSS for index.html - Home */
+
+.main_logo_home
+{display: center;
+justify-content: center;
+border-style: groove;
+border-width: 25px;
+}
+
+.welcomeline
+{font-size: 35px;
+    color: #FFA6C9ff;
+    text-align: center;
+        font-family: "Allura","Lucida handwriting", "Brush Script MT", cursive;
+    
+        font-style: normal;
+      } 
+
+
+
+.contact-info
+{text-align: center;
+}
+
+
+#mobile
+{color:#9E598C;
+  font-weight:bold;
+  }
+
+.opening-hours
+{
+text-align: center;
+color: white;
+
+}
+
+table
+{background: #9A4EAEff;
+justify-content: center;
+word-spacing: 10px;
+border: 2px;
+border-style:solid;
+}
+
+th{
+    padding: 5px;
+    width:165px;
+
+}
+
+td{padding: 5px 10px 5px 10px;
+    width: 165px;
+}
+
+
+/*CSS for index2.html - About */
+.about_dylan
+{text-align: left;
+    color: #FFA6C9ff;
+}
+
+.dylan 
+{border-style:dotted;
+border-width: 5px;
+}
+
+
+/*CSS for index3.html - Services */
+.service-heading
+{color:#FFA6C9ff;
+font-size: 20px;}
+
+.nav-tabs
+{font-size: 30px;
+    color: #F88379ff;
+}
+
+.tab-content
+{color:#FFA6C9ff;
+}
+
+/*CSS for index4.html - Aftercare */
+.aftercare-intro
+{text-align: center;
+    color: #FFA6C9ff;
+font-weight: bold;
+font-size: 30px;
+}
+
+.aftercare-video
+{text-align:center;}
+
+.aftercare-tips
+{color:#FFA6C9ff;
+}
+
+/*CSS for index5.html - Gallery */
+.carousel-inner > .item > img {
+    width:540px;
+    height:560px;
+  }
+  
+  
+  
+  /* PHONE VERSION */
+@media only screen and (max-width: 600px)
+{
+    .navbar{
+        font-size:15px;
+    }
+
+    .page_title
+    {font-size:30px;}
+
+    .main_logo_home
+    {width: 200px;
+         height:200px;
+
+    }
+
+    .col-4
+    {  width: 100%;
+        height: auto;
+       text-align: center;
+   }
+
+   table
+   {width: 100%;
+   };
+
+
+    .service-heading
+    {font-size:15px;
+    }
+
+    .nav-tabs
+    {font-size:15px;
+    }
+    
+    .carousel-inner > .item > img {
+        width:100%;
+        height:auto;
+      }
+        
+      .booking_form
+      {width:auto;
+        height:auto;
+        align-content: center;
+    }
+    
+}
+
+ /* TABLET VERSION */
+ @media only screen and (MAX-width: 820px)
+ {
+     .navbar{
+         font-size:25px;
+     }
+ 
+     .page_title
+     {font-size:30px;}
+ 
+     .main_logo_home
+     {width: 200px;
+          height:200px;
+ 
+     }
+ 
+     .col-4
+     {  width: 100%;
+         height: auto;
+        text-align: center;
+    }
+ 
+    table
+    {width: 100%;
+    };
+ 
+ 
+     .service-heading
+     {font-size:15px;
+     }
+ 
+     .nav-tabs
+     {font-size:15px;
+     }
+     
+     .carousel-inner > .item > img {
+         width:100%;
+         height:auto;
+       }
+         
+       .booking_form
+       {width:auto;
+         height:auto;
+         align-content: center;
+     }
+     
+ }
